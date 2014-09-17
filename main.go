@@ -134,7 +134,6 @@ func main() {
 			fmt.Printf("\n%s: no %q in %v\n\n", filepath.Base(os.Args[0]), cmd, append(paths, searchDirs...))
 		}
 	}
-	fmt.Printf("%v\n", result)
 }
 
 type resultMap map[string]map[string]struct{}
